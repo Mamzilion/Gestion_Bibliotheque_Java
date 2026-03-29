@@ -1,0 +1,15 @@
+# Ne pas envoyer les fichiers de compilation
+/build/
+/bin/
+/target/
+
+# Ne pas envoyer les réglages de l'IDE
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+
+# Ne pas envoyer les fichiers locaux (vignettes de test et PDF locaux)
+/WebContent/img/vignettes/*
+!/WebContent/img/vignettes/default.jpg
